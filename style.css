@@ -1,0 +1,117 @@
+
+body {
+    background-color: #F0F0D8;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-color: #DED9FA;
+    padding: 100px;
+    border-radius: 20px;
+    max-width: 950px;
+    display: block; 
+    margin: auto;
+    margin-top: 40px;
+}
+
+h1 {
+    color: #5A508D;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+p {
+    color: #8C89A2;
+    font-size: 14px;
+}
+
+section {
+    display: inline-block;
+    width: 250px;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.personal {
+    background-color: #FAFADB;
+}
+
+.small-team {
+    background-color: #6A5D9E;
+    color: white;
+}
+
+.enterprise {
+    background-color: #FAFADB;
+}
+
+h2 {
+    font-size: 18px;
+    color: #5A508D;
+    font-weight: bold;
+}
+
+.small-team h2 {
+    color: white;
+}
+
+span {
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    color: #5A508D;
+}
+
+.small-team span {
+    color: white;
+    font-weight: bold;
+}
+
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.sign-up {
+    background-color: transparent;
+    border: 2px solid #5A508D;
+    color: #5A508D;
+}
+
+.free-trial {
+    background-color: #FAFADB;
+    color: #5A508D;
+}
+
+.see-all {
+    background-color: #FAFADB;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+    color: #5A508D;
+}
+
+.sign-up:hover {
+    text-decoration: underline;
+}
+
+.free-trial:hover {
+    text-decoration: underline;
+}
+
+.see-all:hover {
+    transform:scale(1.5);
+}
